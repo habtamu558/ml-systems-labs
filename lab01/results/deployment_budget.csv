@@ -1,0 +1,9 @@
+model,platform,memory_budget,latency_limit_ms,model_size_limit_kb,model_size_kb,inference_latency_ms,meets_latency,meets_model_size,decision
+LogisticRegression,Cloud,>=1 GB,100,512000,1.0303,0.1152,Yes,Yes,Yes
+LogisticRegression,Edge,256-1024 MB,50,51200,1.0303,0.1152,Yes,Yes,Yes
+LogisticRegression,Mobile,64-256 MB,20,10240,1.0303,0.1152,Yes,Yes,Yes
+LogisticRegression,TinyML,<=256 KB,10,100,1.0303,0.1152,Yes,Yes,Yes
+RandomForestClassifier,Cloud,>=1 GB,100,512000,284.0713,6.4816,Yes,Yes,Yes
+RandomForestClassifier,Edge,256-1024 MB,50,51200,284.0713,6.4816,Yes,Yes,Yes
+RandomForestClassifier,Mobile,64-256 MB,20,10240,284.0713,6.4816,Yes,Yes,Yes
+RandomForestClassifier,TinyML,<=256 KB,10,100,284.0713,6.4816,Yes,No,No
